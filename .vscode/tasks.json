@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Current File with History",
+            "type": "shell",
+            "command": "cd /d \"${fileDirname}\" && if not exist history mkdir history && g++ \"${file}\" -o \"history\\${fileBasenameNoExtension}.exe\" && \"history\\${fileBasenameNoExtension}.exe\" >> \"history\\${fileBasenameNoExtension}_output.txt\" 2>&1",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
