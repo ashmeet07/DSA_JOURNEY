@@ -1,6 +1,10 @@
 #include<bits\stdc++.h>
 using namespace std;
-
+/*
+            1
+         1    1
+       1   2    1
+*/
 int main(){
     int n;
     cout<<"Enter the number of rows you want to print the pascal triangle";

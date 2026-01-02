@@ -1,6 +1,14 @@
 #include<bits\stdc++.h>
 using namespace std;
-
+/*
+      *
+    * * * 
+  * * * * * 
+ * * * * * *  
+  * * * * *  
+    * * * 
+      *
+ */
 int main(){
     int n;
     cout<<"Enter no of rows you wan to print the diamond";
